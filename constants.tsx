@@ -1,4 +1,4 @@
-import { Event, MediaItem } from './context/types';
+import { Event, MediaItem } from './types';
 
 export const EVENTS: Event[] = [
   {
