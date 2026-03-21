@@ -24,21 +24,21 @@ import { MediaItem } from '@/types';
 // TODO: Remplacer par GET /api/media
 const INITIAL_MEDIA: MediaItem[] = [
   {
-    id: 'm-1', title: 'La Puissance de la Prière', speaker: 'Pasteur Jean-Pierre',
+    id: 'm-1', title: 'La Puissance de la Prière', speaker: 'Pasteur LEBELA Wilfrid',
     duration: '52:14', type: 'video', date: '15 Jan 2025',
     description: "Découvrez comment la prière transforme le cœur et ouvre les portes du ciel.",
     image: 'https://images.unsplash.com/photo-1438232992991-995b7058bbb3?auto=format&fit=crop&w=800&q=80',
     size: '320 MB',
   },
   {
-    id: 'm-2', title: 'Marcher dans la Foi', speaker: 'Évangéliste Marie',
+    id: 'm-2', title: 'Marcher dans la Foi', speaker: 'Maman Ingrid',
     duration: '38:45', type: 'audio', date: '10 Jan 2025',
     description: 'Une prédication puissante sur la foi qui déplace les montagnes.',
     image: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=800&q=80',
     size: '45 MB',
   },
   {
-    id: 'm-3', title: "L'Appel de Dieu sur ta Vie", speaker: 'Pasteur Jean-Pierre',
+    id: 'm-3', title: "L'Appel de Dieu sur ta Vie", speaker: 'A.P Serge',
     duration: '1:05:22', type: 'video', date: '05 Jan 2025',
     description: "Comprendre et répondre à l'appel divin sur chaque croyant.",
     image: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=800&q=80',
@@ -47,9 +47,9 @@ const INITIAL_MEDIA: MediaItem[] = [
 ];
 
 const INITIAL_ARCHIVES: MediaItem[] = [
-  { id: 'a-1', title: 'Série : Le Sermon sur la Montagne', speaker: 'Pasteur Jean-Pierre', duration: '48:30', type: 'video',  date: '12 Déc 2024', description: '', image: '', size: '280 MB' },
+  { id: 'a-1', title: 'Série : Le Sermon sur la Montagne', speaker: 'Pasteur LEBELA Wilfrid', duration: '48:30', type: 'video',  date: '12 Déc 2024', description: '', image: '', size: '280 MB' },
   { id: 'a-2', title: 'Nuit de Louange 2024',              speaker: 'Équipe Louange',       duration: '2:15:00', type: 'audio', date: '01 Déc 2024', description: '', image: '', size: '120 MB' },
-  { id: 'a-3', title: "Retraite Spirituelle : L'Esprit",   speaker: 'Évangéliste Marie',    duration: '1:30:00', type: 'video', date: '15 Nov 2024', description: '', image: '', size: '900 MB' },
+  { id: 'a-3', title: "Retraite Spirituelle : L'Esprit",   speaker: 'Maman Ingrid',    duration: '1:30:00', type: 'video', date: '15 Nov 2024', description: '', image: '', size: '900 MB' },
 ];
 
 // ── Type de la fonction de notification injectée ──────────

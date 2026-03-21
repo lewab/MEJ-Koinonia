@@ -107,7 +107,10 @@ export default function AuthPage() {
               <Image src="/assets/images/logo.jpeg" alt="MEJ Logo" fill className="object-cover" />
             </div>
             <div>
-              <p className="font-bold text-white text-lg leading-none tracking-tighter">MEJ Koinonia</p>
+              <span className="flex gap-2 text-white font-black text-lg leading-none">
+                  <span>MEJ</span>
+                  <span>KOÏNONIA</span>
+                </span>
               <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Ministère d'évangélisation</p>
             </div>
           </div>
